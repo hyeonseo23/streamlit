@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 cq1, cq2, cq3, cq4, cq5 = st.columns(5)
 with cq1:
    st.image('화면 캡처 2023-09-08 204412.png')
