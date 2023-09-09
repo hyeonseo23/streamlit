@@ -95,6 +95,8 @@ with tab3:
 
    with a13:
       st.image("20.png")
+import os
+import matplotlib.font_manager as fm
 font_dirs = [os.getcwd() + '/customFonts']
 font_files = fm.findSystemFonts(fontpaths=font_dirs)
 
