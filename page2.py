@@ -1,6 +1,5 @@
 import streamlit as st
-import os
-import matplotlib.font_manager as fm
+
 
 cq1, cq2, cq3, cq4, cq5 = st.columns(5)
 with cq1:
@@ -96,9 +95,4 @@ with tab3:
 
    with a13:
       st.image("20.png")
-font_dirs = [os.getcwd() + '/customFonts']
-font_files = fm.findSystemFonts(fontpaths=font_dirs)
 
-for font_file in font_files:
-    fm.fontManager.addfont(font_file)
-fm._load_fontmanager(try_read_cache=False)
